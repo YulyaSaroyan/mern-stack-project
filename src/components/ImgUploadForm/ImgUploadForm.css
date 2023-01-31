@@ -1,0 +1,32 @@
+.img-upload {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    /* border: 1px solid #686868; */
+    background-color: #222935;
+}
+
+.img-upload input {
+    cursor: pointer;
+}
+
+.img-upload button {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #805AD5;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.img-upload label {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #805AD5;
+    border-radius: 5px;
+}

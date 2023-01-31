@@ -1,0 +1,64 @@
+.registration-center > p{
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.registration h3 {
+    color: rgb(255, 255, 255);
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #222935;
+}
+
+.registration form input::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.registration  form input {
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: .3px solid #686868;
+    background-color: #1A202C;
+    color: white;
+}
+
+.registration form input:focus {
+    outline: 1px solid rgb(211, 211, 211);
+}
+
+.registration form button {
+    padding: 5px;
+    background-color: #805AD5;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.registration form p {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+}
+
+.incorrect {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-top: 30px;
+}

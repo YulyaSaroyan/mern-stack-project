@@ -1,0 +1,9 @@
+.img-upload-container {
+    margin-top: 10px;
+}
+
+.img-upload-container p {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    margin: 10px;
+}

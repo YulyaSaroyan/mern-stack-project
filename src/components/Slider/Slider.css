@@ -1,0 +1,79 @@
+.slider {
+    border-radius: 10px;
+}
+
+.carousel .slider-wrapper {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.carousel .slider-wrapper .slider {
+    align-items: center;
+}
+
+.carousel .slider-wrapper img {
+    border: 4px solid  #3b2c5c;
+}
+
+.control-dots {
+    display: none;
+}
+
+.carousel .thumb {
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.carousel-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-root p {
+    display: none;
+}
+
+.thumbs-wrapper .control-arrow {
+    display: none;
+}
+
+.carousel {
+    max-width: 800px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.thumbs-wrapper {
+    overflow: visible !important;
+}
+
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+    border: 3px solid  #805AD5;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.thumbs {
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.carousel::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(230, 230, 230, 0.5) 0%, rgba(255, 255, 255, 0.04) 100%);
+    border-radius: 5px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color: #805AD5;
+    border-radius: 30px;
+    width: 200px;
+}

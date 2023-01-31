@@ -1,0 +1,5 @@
+.image-container-wrapper {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
